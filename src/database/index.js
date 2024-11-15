@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 
 const connectToDB = async () => {
   const connectionUrl =
-    "mongodb://127.0.0.1:27017/directDeal";
+    "mongodb+srv://rohit:rohit12345@directdeal.clc6v.mongodb.net/?retryWrites=true&w=majority&appName=DirectDeal";
 
   mongoose
     .connect(connectionUrl)
