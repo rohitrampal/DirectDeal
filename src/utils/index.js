@@ -177,18 +177,29 @@ export const adminAddProductformControls = [
 
 
 export const firebaseConfig = {
-  apiKey : process.env.NEXT_PUBLIC_FIREBASE_API_KEY ,
-  authDomain : process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ,
-  projectId : process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ,
-  storageBucket : process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ,
-  messagingSenderId : process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ,
-  appId : process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
-  measurementId : process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ,
-
+  // apiKey : process.env.NEXT_PUBLIC_FIREBASE_API_KEY ,
+  // authDomain : process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ,
+  // projectId : process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ,
+  // storageBucket : process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ,
+  // messagingSenderId : process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ,
+  // appId : process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+  // measurementId : process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ,
+  apiKey: "AIzaSyCFwu0i64Vhy44NsoxlVBLjBSIupV-AM5k",
+  authDomain: "next-js-ecommerce-2023-58294.firebaseapp.com",
+  projectId: "next-js-ecommerce-2023-58294",
+  storageBucket: "next-js-ecommerce-2023-58294.appspot.com",
+  messagingSenderId: "948194130889",
+  appId: "1:948194130889:web:49fb2f7735d5f88a47c618",
+  measurementId: "G-HR2FPM8SCB"
 };
+// export const firebaseStroageURL =
+//   "YOUR_FIREBASE_STROAGE_URL";
+
+export const firebaseStroageURL ="gs://next-js-ecommerce-2023-58294.appspot.com";
+// process.env.NEXT_PUBLIC_FIREBASE_STORAGE_URL
 
 
-  export const firebaseStroageURL = process.env.NEXT_PUBLIC_FIREBASE_STORAGE_URL
+  // gs://next-js-ecommerce-2023-58294.appspot.com
 
 export const addNewAddressFormControls = [
   {
