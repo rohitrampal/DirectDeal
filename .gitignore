@@ -1,0 +1,111 @@
+# Dependency directories
+node_modules/
+img/
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log
+error.log
+
+# Build output
+.next/
+out/
+
+# Static file cache
+.cache/
+.cache-loader
+
+# Environment variable files
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+
+# Testing-related files
+coverage/
+jest-html-reporters-*
+.vscode-test/
+
+# Firebase-related files (if using Firebase Hosting/Functions)
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Image processing cache (if using custom image handling)
+images/cache/
+
+# Storybook (if used)
+storybook-static/
+
+# NPM package files
+*.tgz
+
+# Other files and directories
+# Ignore generated files for OLX-like uploads
+public/uploads/
+uploads/
+uploads_tmp/
+temp/
+temp_files/
+
+# Ignore compressed files
+*.zip
+*.tar.gz
+
+# Ignore files related to deployment
+.vercel/
+.netlify/
+dist/
+terraform.tfstate*
+*.pem
+
+# Ignore IntelliJ IDEA-specific cache files
+.idea/
+
+# Ignore Next.js-related analytics and preview files
+.vercel_build_output/
+
+# Ignore Firebase functions if they're built
+functions/lib/
+functions/node_modules/
+
+# Ignore local database files (if any, e.g., SQLite for local dev)
+*.sqlite
+*.sqlite3
+.db/
+
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore Prettier logs
+.prettiercache
+
+# Ignore custom uploads folder in `public` or custom directories
+public/uploads/
+static/uploads/
+
+# Ignore assets generated during development
+assets/
+*.mp4
+*.mp3
+*.mov
+*.avi
+
+# Ignore testing and development data
+test-results/
